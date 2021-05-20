@@ -5,6 +5,7 @@ public class Comida {
     private String nombre;
     private String descripcion;
     private boolean estado;
+    private int precioPrecio;
 
 
     public String getNombre() {
@@ -31,12 +32,12 @@ public class Comida {
         this.estado = estado;
     }
 
-    public int getPrecio() {
-        return precio;
+    public int getPrecioPrecio() {
+        return precioPrecio;
     }
 
-    public void setPrecio(int precio) {
-        this.precio = precio;
+    public void setPrecioPrecio(int precioPrecio) {
+        this.precioPrecio = precioPrecio;
     }
 
     @Override
@@ -45,7 +46,7 @@ public class Comida {
                 "nombre='" + nombre + '\'' +
                 ", descripcion='" + descripcion + '\'' +
                 ", estado=" + estado +
-                ", precio=" + precio +
+                ", precio=" + precioPrecio +
                 '}';
     }
 }
