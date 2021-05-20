@@ -5,7 +5,7 @@ public class Comida {
     private String nombre;
     private String descripcion;
     private boolean estado;
-    private int precio;
+
 
     public String getNombre() {
         return nombre;
